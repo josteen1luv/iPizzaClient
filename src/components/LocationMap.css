@@ -1,0 +1,11 @@
+.location-map {
+    flex: 1;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .location-map iframe {
+    border-radius: 8px;
+  }
+  

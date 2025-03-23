@@ -1,0 +1,53 @@
+.success-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.success-container h2 {
+    font-size: 2rem;
+    color: green;
+}
+
+.success-container p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.order-details {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.success-actions {
+    margin-top: 30px;
+}
+
+.success-actions .btn-primary,
+.success-actions .btn-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.success-actions .btn-primary {
+    background-color: #28a745;
+    color: white;
+}
+
+.success-actions .btn-primary:hover {
+    background-color: #218838;
+}
+
+.success-actions .btn-secondary {
+    background-color: #007bff;
+    color: white;
+}
+
+.success-actions .btn-secondary:hover {
+    background-color: #0056b3;
+}

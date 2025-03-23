@@ -1,0 +1,65 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f8e4c3; /* Warm pizza dough color */
+  color: #4a1c07; /* Dark brown text */
+  text-align: center;
+}
+
+/* Main content styling */
+main {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+}
+h2 {
+  color: #b22222;
+}
+
+/* Order Page */
+.order-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.order-container button {
+  background-color: #ffcc00;
+  color: #4a1c07;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.order-container button:hover {
+  background-color: #e6b800;
+}
+
+/* Contact Page */
+.contact-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.contact-container p {
+  font-size: 18px;
+}

@@ -1,0 +1,31 @@
+.contact-page {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .additional-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .additional-info {
+      flex-direction: column;
+    }
+  }
+  
