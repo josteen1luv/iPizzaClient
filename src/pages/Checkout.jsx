@@ -22,14 +22,12 @@ function Checkout() {
   } = useForm();
   const [error, setError] = useState(null);
 
-  // Redirect if the cart is empty
   useEffect(() => {
     if (cart.orderedPizzas.length === 0) {
-      navigate("/"); // Redirect to home if the cart is empty
+      navigate("/"); 
     }
   }, [cart, navigate]);
 
-  // Submit function for handling the checkout form submission
   const onSubmit = async (data) => {
     const orderData = {
       address: data,
@@ -120,7 +118,6 @@ function Checkout() {
           )}
         </div>
 
-        {/* Display the total price */}
         <div className="total-price">
           <p>
             <strong>Total: ${totalSum.toFixed(2)}</strong>

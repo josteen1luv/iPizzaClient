@@ -17,7 +17,7 @@ const axiosBaseQuery =
         data,
         params,
         headers: {
-          "Content-Type": "application/json", // Ensure we send JSON
+          "Content-Type": "application/json",
         },
       });
       return { data: result.data };

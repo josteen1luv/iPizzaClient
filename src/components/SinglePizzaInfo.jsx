@@ -118,13 +118,9 @@ function SinglePizzaInfo({ pizza }) {
             price: ingredient.price,
           },
         ]);
-
-        // Remove ingredient from extraIngredientsLeft
         setExtraIngredientsLeft((prevExtraIngredients) =>
           prevExtraIngredients.filter((e) => e.id !== ingredient.id),
         );
-
-        // Reset selection after adding
         setSelectedExtraIngredientId(null);
       }
     }

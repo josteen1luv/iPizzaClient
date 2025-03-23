@@ -4,12 +4,9 @@ import "./App.css"
 function App() {
   return (
     <div>
-      {/* Hero Section */}
       <div className="hero">
         <h1>Delicious Pizza, Made Fresh Daily! 🍕</h1>
       </div>
-
-      {/* Featured Pizzas */}
       <section className="featured">
         <h2>Our Best-Selling Pizzas</h2>
         <div className="pizza-list">
@@ -30,8 +27,6 @@ function App() {
           </div>
         </div>
       </section>
-
-      {/* Customer Reviews */}
       <section className="reviews">
         <h2>What Our Customers Say</h2>
         <div className="review-card">
@@ -43,8 +38,6 @@ function App() {
           <strong>- Jason R.</strong>
         </div>
       </section>
-
-      {/* Order Now Call to Action */}
       <section className="order-now">
         <h2>Ready to Order?</h2>
         <Link to="/order">

@@ -8,18 +8,17 @@ function CartIcon() {
   const cart = useSelector(selectCartPizzas);
   const itemCount = cart.reduce((sum, item) => sum + (item.quantity || 1), 0);
   const [topPosition, setTopPosition] = useState(80);
-  const location = useLocation(); // Get current path
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
-      setTopPosition(Math.max(10, 80 - window.scrollY)); // Adjust top position on scroll
+      setTopPosition(Math.max(10, 80 - window.scrollY));
     };
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Hide cart icon when on the "/cart" page
   if (location.pathname === "/cart") {
     return null;
   }

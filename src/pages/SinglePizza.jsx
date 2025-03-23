@@ -7,7 +7,6 @@ function SinglePizza() {
   const { id } = useParams();
   const { data: pizza, isLoading, isError } = useGetSinglePizzaQuery(id);
 
-  // Wait until data is loaded
   if (isLoading) return <p>Loading pizza...</p>;
   if (isError || !pizza) return <p>Failed to load pizza.</p>;
 

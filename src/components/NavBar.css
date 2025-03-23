@@ -1,5 +1,5 @@
 nav {
-    background-color: #b22222; /* Deep red, like marinara sauce */
+    background-color: #b22222;
     color: white;
     padding: 15px;
     display: flex;
@@ -30,5 +30,5 @@ nav {
   }
   
   nav ul li a:hover {
-    color: #ffcc00; /* Golden cheese color */
+    color: #ffcc00;
   }

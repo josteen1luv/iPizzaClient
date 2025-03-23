@@ -1,4 +1,3 @@
-/* Global Styles */
 * {
   margin: 0;
   padding: 0;
@@ -7,12 +6,10 @@
 }
 
 body {
-  background-color: #f8e4c3; /* Warm pizza dough color */
-  color: #4a1c07; /* Dark brown text */
+  background-color: #f8e4c3;
+  color: #4a1c07;
   text-align: center;
 }
-
-/* Main content styling */
 main {
   margin-top: 30px;
   padding: 20px;
@@ -24,8 +21,6 @@ h1 {
 h2 {
   color: #b22222;
 }
-
-/* Order Page */
 .order-container {
   background: white;
   padding: 20px;
@@ -49,8 +44,6 @@ h2 {
 .order-container button:hover {
   background-color: #e6b800;
 }
-
-/* Contact Page */
 .contact-container {
   background: white;
   padding: 20px;
